@@ -49,6 +49,8 @@ Retrieve all logged times from the database.
 ```bash
 http://localhost:8080/all-times
 ```
+![image](https://github.com/RishwanthReddy17/user-attachments/raw/721390bb3ef7576fc6cf9edd5d6eea5947ba20d2/2.png)
+
 DSN for MYSQL:
 ```bash
 dsn := "user:securepass@tcp(mysql-container:3306)/time_api"
