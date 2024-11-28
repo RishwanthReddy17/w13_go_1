@@ -1,4 +1,9 @@
 # w13_go_1
+### -This Go application provides an API that returns the current time in Toronto, stores it in a MySQL database, and allows retrieval of all stored time records. It demonstrates how to work with MySQL in Go, handle time zone conversions, and expose RESTful API endpoints.
+The application connects to a MySQL database and performs two main operations:
+- Insert the current time (in Toronto's local time) into the database.
+- Retrieve and display all stored time records from the database
+
 Install MySQL on macos
 ``` bash 
 brew install mysql
@@ -32,7 +37,7 @@ Install the MySQL driver:
 go get -u github.com/go-sql-driver/mysql
 ```
 Access Endpoints:
-Get the current Toronto time and log it in the database.
+Get the current Toronto time and log it in the database. 
 ```bash 
 http://localhost:8080/current-time
 ```
@@ -40,4 +45,10 @@ Retrieve all logged times from the database.
 ```bash
 http://localhost:8080/all-times
 ```
+DSN for MYSQL:
+```bash
+dsn := "user:securepass@tcp(mysql-container:3306)/time_api"
+```
+
+
 
