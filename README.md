@@ -48,7 +48,8 @@ Get the current Toronto time and log it in the database.
 ```bash 
 http://localhost:8080/current-time
 ```
-![image](https://github.com/RishwanthReddy17/user-attachments/raw/721390bb3ef7576fc6cf9edd5d6eea5947ba20d2/1.png)
+<img width="1470" alt="1" src="https://github.com/user-attachments/assets/14527704-9045-485b-9313-86457eacc751">
+
 
 Retrieve all logged times from the database.
 ```bash
