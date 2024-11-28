@@ -38,10 +38,13 @@ Install the MySQL driver:
 go get -u github.com/go-sql-driver/mysql
 ```
 Access Endpoints:
+
 Get the current Toronto time and log it in the database. 
 ```bash 
 http://localhost:8080/current-time
 ```
+![image](https://github.com/RishwanthReddy17/user-attachments/raw/721390bb3ef7576fc6cf9edd5d6eea5947ba20d2/1.png)
+
 Retrieve all logged times from the database.
 ```bash
 http://localhost:8080/all-times
@@ -50,6 +53,5 @@ DSN for MYSQL:
 ```bash
 dsn := "user:securepass@tcp(mysql-container:3306)/time_api"
 ```
-
 
 
