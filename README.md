@@ -1,5 +1,6 @@
 # w13_go_1
-### -This Go application provides an API that returns the current time in Toronto, stores it in a MySQL database, and allows retrieval of all stored time records. It demonstrates how to work with MySQL in Go, handle time zone conversions, and expose RESTful API endpoints.
+
+This Go application provides an API that returns the current time in Toronto, stores it in a MySQL database, and allows retrieval of all stored time records. It demonstrates how to work with MySQL in Go, handle time zone conversions, and expose RESTful API endpoints.
 The application connects to a MySQL database and performs two main operations:
 - Insert the current time (in Toronto's local time) into the database.
 - Retrieve and display all stored time records from the database
