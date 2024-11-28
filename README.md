@@ -34,10 +34,10 @@ go get -u github.com/go-sql-driver/mysql
 Access Endpoints:
 Get the current Toronto time and log it in the database.
 ```bash 
-http://localhost:8080/current-time: 
+http://localhost:8080/current-time
 ```
 Retrieve all logged times from the database.
 ```bash
-http://localhost:8080/all-times: 
+http://localhost:8080/all-times
 ```
 
