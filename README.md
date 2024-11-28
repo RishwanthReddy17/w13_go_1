@@ -55,7 +55,8 @@ Retrieve all logged times from the database.
 ```bash
 http://localhost:8080/all-times
 ```
-![image](https://github.com/RishwanthReddy17/user-attachments/raw/721390bb3ef7576fc6cf9edd5d6eea5947ba20d2/2.png)
+<img width="1470" alt="2" src="https://github.com/user-attachments/assets/4f0db608-b2f1-4ace-8ddb-b4e437214bf2">
+
 
 
 
